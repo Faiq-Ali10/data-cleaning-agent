@@ -87,6 +87,7 @@ Run locally (without Docker)
 cd backend
 uvicorn main:app
 
+##
 ### 5. 🔄 Data Cleaning & Preprocessing Agent
 
 The Agent in backend/agent.py creates a pipeline using StateGraph with the following nodes:
@@ -101,6 +102,7 @@ Final Missing Handling → ensures cleaned output is ready
 
 Pipeline graph is automatically saved as graph.png for visualization.
 
+##
 ### 6. 🛠 Tech Stack
 
 Python 3.11+
@@ -113,6 +115,7 @@ FastAPI for backend API
 
 Docker & Docker Compose for containerization
 
+##
 ### 7. 📌 Future Improvements
 
 Add unit tests for each pipeline step
@@ -123,6 +126,7 @@ Improve frontend UI for interactive dataset uploads
 
 Add monitoring/logging for pipeline runs
 
+##
 ### 8. 📷 Pipeline Graph
 
 The preprocessing pipeline is visualized in graph.png:
