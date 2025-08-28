@@ -49,7 +49,7 @@ data-cleaning-agent/
 ```bash
 git clone https://github.com/Faiq-Ali10/data-cleaning-agent.git
 cd data-cleaning-agent
-```bash
+```
 
 ###2. Setup environment
 ```bash
