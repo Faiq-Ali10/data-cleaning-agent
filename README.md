@@ -129,5 +129,5 @@ The preprocessing pipeline is visualized in graph.png:
 ##
 ### 👨‍💻 Author
 
-Faiq Ali
-Data Scientist & ML Engineer
+Faiq Ali <br>
+Data Scientist | ML Engineer
