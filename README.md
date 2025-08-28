@@ -51,7 +51,7 @@ git clone https://github.com/Faiq-Ali10/data-cleaning-agent.git
 cd data-cleaning-agent
 ```
 
-###2. Setup environment
+### 2. Setup environment
 ```bash
 Using venv:
 
@@ -63,15 +63,16 @@ Install dependencies:
 
 pip install -r backend/requirements.txt
 pip install -r frontend/requirements.txt
-```bash
+```
 
-3. Setup environment variables
+### 3. Setup environment variables
 
 Create a .env file in the project root:
 
 store environment variables
 
-🚀 Usage
+##
+### 🚀 Usage
 Run with Docker Compose
 docker-compose up --build
 
@@ -84,7 +85,7 @@ Run locally (without Docker)
 cd backend
 uvicorn main:app
 
-🔄 Data Cleaning & Preprocessing Agent
+### 🔄 Data Cleaning & Preprocessing Agent
 
 The Agent in backend/agent.py creates a pipeline using StateGraph with the following nodes:
 
@@ -98,7 +99,7 @@ Final Missing Handling → ensures cleaned output is ready
 
 Pipeline graph is automatically saved as graph.png for visualization.
 
-🛠 Tech Stack
+### 🛠 Tech Stack
 
 Python 3.11+
 
@@ -110,7 +111,7 @@ FastAPI for backend API
 
 Docker & Docker Compose for containerization
 
-📌 Future Improvements
+### 📌 Future Improvements
 
 Add unit tests for each pipeline step
 
@@ -120,11 +121,12 @@ Improve frontend UI for interactive dataset uploads
 
 Add monitoring/logging for pipeline runs
 
-📷 Pipeline Graph
+### 📷 Pipeline Graph
 
 The preprocessing pipeline is visualized in graph.png:
 
-👨‍💻 Author
+##
+### 👨‍💻 Author
 
 Faiq Ali
 Data Scientist & ML Engineer
