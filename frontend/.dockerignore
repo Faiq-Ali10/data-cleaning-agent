@@ -1,0 +1,18 @@
+# Cache
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Git files
+.git
+.gitignore
+
+# Local IDE files
+.vscode/
+*.swp
+
+# Node or build directories if any
+node_modules/
+build/

@@ -1,0 +1,15 @@
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files
+.env
+
+# Git files
+.git
+.gitignore
+
+# Local IDE files
+.vscode/
+*.swp
