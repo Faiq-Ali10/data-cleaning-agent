@@ -49,9 +49,10 @@ data-cleaning-agent/
 ```bash
 git clone https://github.com/Faiq-Ali10/data-cleaning-agent.git
 cd data-cleaning-agent
+```bash
 
-2. Setup environment
-
+###2. Setup environment
+```bash
 Using venv:
 
 python -m venv venv
@@ -62,6 +63,7 @@ Install dependencies:
 
 pip install -r backend/requirements.txt
 pip install -r frontend/requirements.txt
+```bash
 
 3. Setup environment variables
 
