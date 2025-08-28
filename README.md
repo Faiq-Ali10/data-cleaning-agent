@@ -1,7 +1,9 @@
-# data-cleaning-agent
+# Data Cleaning Agent
 
-A modular pipeline for **data cleaning** and **preprocessing** using `pandas`, custom cleaning logic, and LLM-assisted handling.  
-This project is containerized with Docker and provides both a **backend** (FastAPI/agents) and a **frontend** interface.
+A modular and extensible pipeline designed for data cleaning, transformation, and preprocessing, built on top of pandas with support for custom cleaning logic and LLM-assisted handling of ambiguous or unstructured data.
+The pipeline automates repetitive tasks such as handling missing values, type enforcement, formatting, and text processing, while also enabling AI-driven decision-making for edge cases.
+
+This project is fully containerized with Docker for portability and ease of deployment. It includes both a backend (FastAPI + agents for pipeline orchestration and LLM integration) and a frontend interface that allows users to upload datasets, configure cleaning rules, and visualize outputs interactively.
 
 ---
 
@@ -126,7 +128,7 @@ Add monitoring/logging for pipeline runs
 The preprocessing pipeline is visualized in graph.png:
 
 ##
-### 9. 👨‍💻 Author
+### 👨‍💻 Author
 
 Faiq Ali
 Data Scientist & ML Engineer
