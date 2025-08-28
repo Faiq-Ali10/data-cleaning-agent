@@ -72,7 +72,7 @@ Create a .env file in the project root:
 store environment variables
 
 ##
-### 🚀 Usage
+### 4. 🚀 Usage
 Run with Docker Compose
 docker-compose up --build
 
@@ -85,7 +85,7 @@ Run locally (without Docker)
 cd backend
 uvicorn main:app
 
-### 🔄 Data Cleaning & Preprocessing Agent
+### 5. 🔄 Data Cleaning & Preprocessing Agent
 
 The Agent in backend/agent.py creates a pipeline using StateGraph with the following nodes:
 
@@ -99,7 +99,7 @@ Final Missing Handling → ensures cleaned output is ready
 
 Pipeline graph is automatically saved as graph.png for visualization.
 
-### 🛠 Tech Stack
+### 6. 🛠 Tech Stack
 
 Python 3.11+
 
@@ -111,7 +111,7 @@ FastAPI for backend API
 
 Docker & Docker Compose for containerization
 
-### 📌 Future Improvements
+### 7. 📌 Future Improvements
 
 Add unit tests for each pipeline step
 
@@ -121,12 +121,12 @@ Improve frontend UI for interactive dataset uploads
 
 Add monitoring/logging for pipeline runs
 
-### 📷 Pipeline Graph
+### 8. 📷 Pipeline Graph
 
 The preprocessing pipeline is visualized in graph.png:
 
 ##
-### 👨‍💻 Author
+### 9. 👨‍💻 Author
 
 Faiq Ali
 Data Scientist & ML Engineer
